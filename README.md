@@ -28,6 +28,10 @@ Public Talks
 * [Ansible for MacOS @ MacAdmins Jan 2017](https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/)
 * [Automating MacOS VM Creation @ MacAdmins Feb 2017](https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/)
 
+Certifications
+--------------
+* [Jenkins Engineer](https://certificates.cloudbees.com/10297911)
+
 Work Experience
 ===============
 
