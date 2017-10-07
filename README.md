@@ -1,14 +1,16 @@
 Elliot Weiser
 =============
 
-Email | GitHub
------ | ------
-elliot.weiser@gmail.com | [https://github.com/elliotweiser](https://github.com/elliotweiser)
+Email | GitHub | LinkedIn
+----- | ------ | --------
+elliot.weiser@gmail.com | [https://github.com/elliotweiser](https://github.com/elliotweiser) | [https://www.linkedin.com/in/elliotweiser/](https://www.linkedin.com/in/elliotweiser/)
 
 Education
 ---------
 
-* Bachelor of Arts from Swarthmore College '17; Major: Computer Science, Minor: Mathematics
+* Bachelor of Arts from Swarthmore College '17
+  * Major: Computer Science
+  * Minor: Mathematics
 
 Open Source Work (on GitHub)
 ----------------------------
@@ -38,9 +40,9 @@ Work Experience
 Comcast NBC Universal (June 2014 - Present Day)
 -----------------------------------------------
 
-I joined Comcast as a junior engineer after graduating from Swarthmore My
-initial core responsibilities involved system administration and operation
-of Anthill Pro 3 (a legacy CI tool), Gerrit Code Review, and Sonatype Nexus.
+I joined Comcast as a junior engineer after graduating from Swarthmore College.
+My initial core responsibilities included system administration and operation
+of Anthill Pro (a legacy CI system), Gerrit Code Review, and Sonatype Nexus.
 In the following months, I gradually applied my software development skills to
 this role and began practicing "DevOps". As time passed, my team established its
 charter: Empower engineers to go fast!
@@ -49,13 +51,14 @@ I've since moved up in the ranks. I help motivate my team to do the best work
 they can do, while encouraging a fun, collaborative atmosphere. We observe
 strict code review guidelines, automate any repeatable task, and test
 EVERYTHING. We encourage and remind each other to care about the quality of the
-code we write (that also applies to documentation). We use the AGILE methodology
-to manage our workload and communicate/share our roadmap with our stakeholders.
-Our customers are other Comcast engineers, so we've build strong relationships
-with other teams to collaborate on the delivery and testing of high-demand
-features to our own software.
+code we write (and that also applies to documentation). We use the AGILE
+methodology to manage our workload and to facilitate communication of our
+priorities/roadmap to our stakeholders. Our customers are other Comcast
+engineers, so we've built strong collaborative relationships with other teams.
+This establishes a feedback loop for transparent testing and delivery of
+high-demand features to our own software.
 
-Below I describe some of the cool projects I've worked on.
+Below I describe some of the projects I've worked on while at Comcast.
 
 #### Project Mortar
 
