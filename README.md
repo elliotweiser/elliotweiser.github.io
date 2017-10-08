@@ -8,7 +8,7 @@ elliot.weiser@gmail.com | [https://github.com/elliotweiser](https://github.com/e
 Education
 ---------
 
-* Bachelor of Arts from Swarthmore College '17
+* Bachelor of Arts from Swarthmore College '14
   * Major: Computer Science
   * Minor: Mathematics
 
