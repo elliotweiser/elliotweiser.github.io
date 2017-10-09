@@ -193,13 +193,11 @@ My go-to language in college was C++, but it's been a while.
 System Administration
 ---------------------
 
-I won't say too much about this. Most of the system administration skills I
-learned were incidental to my other responsibilities. Sometimes I needed to
-reconfigure SSHD, manage user accounts, or troubleshoot network connectivity
-with `traceroute` and `nc`. I wrote various Bash scripts which used some fun
-GNU tools like `find`, `sed`, and `awk`. I mostly administered Linux systems,
-specifically CentOS 6 and 7, but I also managed a cluster of Mac Minis
-responible for building iOS applications.
+The systems I administered were a combination of Linux (CentOS 6/7) and Mac OS.
+Sometimes I needed to configure services, manage user accounts, or troubleshoot
+network connectivity. I wrote various Bash, Python, and Ruby scripts to assist
+with these efforts. I'm sure there's something I forgetting here, so I'll come
+back to it when I remember.
 
 Things I'm excited to learn more about
 --------------------------------------
