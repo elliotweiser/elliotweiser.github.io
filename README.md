@@ -113,6 +113,33 @@ in Grafana dashboards. We used Consul for service discovery, health-checks, and
 runtime configuration management. This undertaking was laborious, but it was
 rewarding.
 
+Software Engineer Intern @ Comcast NBC Universal (Summer, 2013)
+---------------------------------------------------------------
+
+My experience at Sylint (see below) steered my internship at Comcast, where
+I worked on a Windows Phone application. Once again, I found myself using the
+Visual Studio IDE to develop C# code. It was the first time I found myself
+using Git for version control in a professional setting (I had used it a bit in
+college). I created an app that helps users search for films by title.
+For each title, the app showed:
+
+* A movie poster
+* Synopsis and description
+* Cast information
+* Scores from Rotten Tomatoes and Flixster
+
+Software Engineer Intern @ The Sylint Group (Summer, 2012)
+----------------------------------------------------------
+
+In the Summer of 2012, I interned at a cyber security firm. I learned some
+of the core web development languages, including HTML5, CSS, and Javascript.
+I created a couple of web apps using the .NET framework, the Visual Studio IDE,
+Team Foundation Server for version control. For my final project, I created
+a web app that allows gun range attendees to post and share photos with their
+shooting instructors. The most enjoyable part of this for me was playing with
+HTML canvas to render linear transformations (scaling, rotation, translation)
+because I'm a math nerd that way.
+
 Skills
 ======
 
