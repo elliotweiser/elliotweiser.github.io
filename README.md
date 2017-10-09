@@ -41,24 +41,27 @@ Software Engineer, Comcast NBC Universal (June 2014 - Present Day)
 ------------------------------------------------------------------
 
 I joined Comcast as a junior engineer after graduating from Swarthmore College.
-My initial responsibilities included system administration and operation
-of Anthill Pro (a legacy CI system), Gerrit Code Review, and Sonatype Nexus.
-In the following months, I gradually applied my software development skills to
-this role and began practicing "DevOps". As time passed, my team established its
-charter: Empower engineers to go fast!
+Administration of various legacy services was my first responsibility.  Those
+systems included Anthill Pro, Gerrit Code Review, and Sonatype Nexus. Each
+member of the team led training sessions and contributed to best-practices
+documentation.
 
-I've since moved up in the ranks. I help motivate my team to do the best work
-they can do, while encouraging a fun, collaborative atmosphere. We observe
+This was not a glamorous phase of my position, but it presented an opportunity
+for growth. A "DevOps" culture arose as my team applied development
+methodologies to our work. After some much needed maturation, my team
+established its charter. Empower engineers to go fast!
+
+I'm currently a Software Engineer II.  I help motivate my team to do the best
+work they can do, while encouraging a fun, collaborative atmosphere. We observe
 strict code review guidelines, automate any repeatable task, and test
-EVERYTHING. We encourage and remind each other to care about the quality of the
-code we write (and that also applies to documentation). We use the AGILE
-methodology to manage our workload and to facilitate communication of our
-priorities/roadmap to our stakeholders. Our customers are other Comcast
-engineers, so we've built strong collaborative relationships with other teams.
-This establishes a feedback loop for transparent testing and delivery of
-high-demand features to our own software.
+EVERYTHING. We encourage each other to write high-quality code, commit messages,
+and documentation. Our team practices the AGILE methodology to help manage our
+workload. Each member of the team "manages up" by leading scrums and
+contributing to our road-map. Furthermore, we've established healthy
+collaborative relationships with other engineering teams.  These teams help
+assist with beta testing, providing feedback, and informing our backlog.
 
-Below I describe some of the projects I've worked on while at Comcast.
+Below I describe some of the projects I’ve worked on while at Comcast.
 
 #### Project Mortar
 
