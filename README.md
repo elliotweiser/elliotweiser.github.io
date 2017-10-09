@@ -3,7 +3,7 @@ Elliot Weiser
 
 Email | GitHub | LinkedIn
 ----- | ------ | --------
-elliot.weiser@gmail.com | [https://github.com/elliotweiser](https://github.com/elliotweiser) | [https://www.linkedin.com/in/elliotweiser/](https://www.linkedin.com/in/elliotweiser/)
+[elliot.weiser@gmail.com](mailto:elliot.weiser@gmail.com) | [https://github.com/elliotweiser](https://github.com/elliotweiser) | [https://www.linkedin.com/in/elliotweiser/](https://www.linkedin.com/in/elliotweiser/)
 
 Education
 ---------
@@ -37,11 +37,11 @@ Certifications
 Work Experience
 ===============
 
-Comcast NBC Universal (June 2014 - Present Day)
------------------------------------------------
+Software Engineer, Comcast NBC Universal (June 2014 - Present Day)
+------------------------------------------------------------------
 
 I joined Comcast as a junior engineer after graduating from Swarthmore College.
-My initial core responsibilities included system administration and operation
+My initial responsibilities included system administration and operation
 of Anthill Pro (a legacy CI system), Gerrit Code Review, and Sonatype Nexus.
 In the following months, I gradually applied my software development skills to
 this role and began practicing "DevOps". As time passed, my team established its
@@ -110,9 +110,10 @@ fun!). Overall, this undertaking was laborious and sometimes painful, but it was
 also extremely rewarding.
 
 Skills
-------
+======
 
-#### Source Control
+Source Control
+--------------
 
 Git is my go-to. I've used both GitHub and Gerrit extensively, so I'm proficient
 in both the fork/PR workflow and the Gerrit cherry-picking workflow, but I've
@@ -125,7 +126,8 @@ multi-remote configurations.
 I've also worked with Subversion, Team Foundation Server, and Visual SourceSafe,
 but I don't like using them.
 
-#### Infrastructure and Configuration as Code
+Infrastructure and Configuration as Code
+----------------------------------------
 
 I have substantial experience writing code for/using the tools enumerated below.
 Most of this experience targed an OpenStack-based cloud environment, but some
@@ -155,7 +157,8 @@ Service Discovery and Monitoring
 * Consul (as a client user)
 * Consul Template
 
-#### Programming Languages
+Programming Languages
+---------------------
 
 Below are the programming languages with which I have extensive experience:
 
@@ -184,7 +187,8 @@ Bash:
 I've also contributed small code changes to Java, Golang, and NodeJS projects.
 My go-to language in college was C++, but it's been a while.
 
-#### System Administration
+System Administration
+---------------------
 
 I won't say too much about this. Most of the system administration skills I
 learned were incidental to my other responsibilities. Sometimes I needed to
@@ -203,5 +207,5 @@ Things I'm excited to learn more about
 Useless Trivia
 --------------
 
-* I rescued, nursed, and adopted an abandoned baby kitten. He's my programming buddy.
+* I rescued, nursed, and adopted an abandoned, newborn kitten. He's now my programming buddy.
 * I enjoy talking astrophysics, internet memes, and describing algorithms with Big-O notation.
