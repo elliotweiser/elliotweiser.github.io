@@ -55,11 +55,11 @@ I'm currently a Software Engineer II.  I help motivate my team to do the best
 work they can do, while encouraging a fun, collaborative atmosphere. We observe
 strict code review guidelines, automate any repeatable task, and test
 EVERYTHING. We encourage each other to write high-quality code, commit messages,
-and documentation. Our team practices the AGILE methodology to help manage our
-workload. Each member of the team "manages up" by leading scrums and
-contributing to our road-map. Furthermore, we've established healthy
-collaborative relationships with other engineering teams.  These teams help
-assist with beta testing, providing feedback, and informing our backlog.
+and documentation. Our team practices AGILE to help manage our workload. Each
+member of the team "manages up" by leading scrums and contributing to our
+road-map. Furthermore, we've established healthy, collaborative relationships
+with other engineering teams.  These teams help assist with beta testing,
+providing feedback, and informing our backlog.
 
 Below I describe some of the projects I’ve worked on while at Comcast.
 
@@ -69,8 +69,9 @@ Our mission was to develop the ideal CD-as-a-service platform to replace Anthill
 Pro. Together, we designed and implemented a secure, easy-to-use CD solution
 based on Jenkins.  Inspired by Travis CI, it utilizes a declarative YAML syntax
 to describe the CD pipelines. This was the primary manifestation of our team’s
-charter to empower engineers. Below are some of the relevant components and
-features to which I contributed:
+charter to empower engineers. Project Mortar continues to provide CI/CD to
+hundreds of projects and users across Comcast. Below are some of the relevant
+components and features to which I contributed:
 
 * Groovy scripts for configuring the Jenkins master
 * Curating mkdocs-style user onboarding documentation
@@ -81,36 +82,35 @@ features to which I contributed:
 
 #### Waffle
 
-I authored a Groovy library for translating a declarative YAML specification
-into Jenkins Scripted Pipeline DSL. This was a component of Project Mortar,
-which aided in its mission to create a simplifed, opionated interface to CD so
-that users could spend less time learning Jenkins internals and more time
-building and developing software. This has not been open-sourced (yet).
+I authored a Groovy library that translates YAML into Jenkins Scripted Pipeline
+DSL. This implemented a declarative, simplified, and opinionated interface to
+Jenkins. Furthermore, it prevents users from injecting arbitrary Groovy code
+into the Jenkins runtime. In response to similar projects, Jenkins finally
+released "Declarative Pipeline" the following year. Unfortunately, Waffle has
+not been open-sourced (yet). It remains a key component of Project Mortar.
 
 #### CAP Current-Next
 
-This was my first project at Comcast. I wrote a client library and CLI
-(first in Python, then in Ruby) that talked to a service called HighWire, a
-RESTful interfact to Brocade load balancers. The goal was to use Blue-Green
-(or Current-Next) style deployment to eliminate the risky minutes-to-hours long
-deployment window of some of our state-less applications. We successfully
-managed to get this down to less than 10 seconds for the projects that opted to
-onboard. Though the project was ultimately put on hold, I gained a love for
-writing Ruby code, and more importantly, I learned the importance of building
-strong, collaborative relationships within my team and across teams.
+This was my first project at Comcast. I wrote a client library and CLI that
+orchestrated blue-green (or current-next) deployment. This tool would
+communicate with HighWire, a RESTful interface to Brocade load balancers. The
+goal? Reduce the minutes-to-hours long deployment window of some of our
+state-less applications. For the projects that opted to onboard, we managed to
+shrink this to approximately 10 seconds! With the emergence of tooling like
+Consul and Docker, we decided to put development on hold. I wasn't discouraged
+though-- I gained a love for writing Ruby code. Furthermore, I learned the value
+of collaborative relationships that transcends typical team boundaries.
 
 #### Migrate to the Cloud
 
-I collaborated with my team to design and implement immutable architecture for
-our existing service offerings. Using tools like Ansible, Packer, Cloud-Init,
-and Terraform, we migrated our services out of VMWare datacenters into
-an OpenStack VPC. Testing was performed with Testinfra, and eventually we
-converted to Goss. I learned about using service discovery tools like Consul for
-health-check monitoring and runtime-configuration management in response to
-certain events. We sent system (and sometimes JVM/application) metrics to an
-InfluxDB cluster with Telegraf and created Grafana dashboards (which was so much
-fun!). Overall, this undertaking was laborious and sometimes painful, but it was
-also extremely rewarding.
+We migrated our services out of legacy VMWare datacenters into an OpenStack VPC.
+To this end, I collaborated with my team to design and deploy immutable
+architecture. We used tools like Ansible, Packer, Cloud-Init, and Terraform to
+provision infrastructure. We leveraged Testinfra and Goss to verify desire
+machine state. We registered our services with externally-managed Consul and
+Influx DB clusters. Telegraf would send metrics to InfluxDB, which we visualized
+in Grafana dashboards. We used Consul for service discovery and application
+health-checking. This undertaking was laborious, but it was also rewarding.
 
 Skills
 ======
