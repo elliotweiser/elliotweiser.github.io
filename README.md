@@ -65,16 +65,16 @@ Below I describe some of the projects I’ve worked on while at Comcast.
 
 #### Project Mortar
 
-I collaborated with my team to develop and release a CD-as-a-service platform
-for empowering Comcast engineers, based on Jenkins. It was designed to be secure
-and easy to use. It integrated with GitHub and used a declarative YAML
-specification to describe the entire CD pipeline (similar to Travis CI). This
-was the manifestation of our team's charter to empower engineers. Below are
-some of the relevant components and features I worked on.
+Our mission was to develop the ideal CD-as-a-service platform to replace Anthill
+Pro. Together, we designed and implemented a secure, easy-to-use CD solution
+based on Jenkins.  Inspired by Travis CI, it utilizes a declarative YAML syntax
+to describe the CD pipelines. This was the primary manifestation of our team’s
+charter to empower engineers. Below are some of the relevant components and
+features to which I contributed:
 
 * Groovy scripts for configuring the Jenkins master
 * Curating mkdocs-style user onboarding documentation
-* Asymmetrically encrypted repository secrets as Jenkins Masked Passwords
+* Asymmetric encryption of repository secrets, exposed as Jenkins Masked Passwords
 * Development of a Job-DSL seed job for generating other Jenkins jobs
 * Optimized agent scheduling and build-time caching with Docker and Jenkins Swarm
 * Waffle (declarative pipeline YAML; see below)
