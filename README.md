@@ -118,23 +118,27 @@ Skills
 Source Control
 --------------
 
-Git is my go-to. I've used both GitHub and Gerrit extensively, so I'm proficient
-in both the fork/PR workflow and the Gerrit cherry-picking workflow, but I've
-also worked with other merging and rebasing workflows. I also GPG-sign my
-commits and tags. In my role as a Gerrit administrator, I've also taught Git to
-new users, which required a thorough understanding of the internals of Git's
-object and reference database. I've assisted with Git migrations and managing
-multi-remote configurations.
+Git is my go-to. I’ve made extensive use of both GitHub (Enterprise) and Gerrit
+Code Review. I’m proficient in both the fork/PR workflow and the Gerrit
+cherry-picking workflow. I'm also familiar with other merging/rebasing
+workflows. On collaborative projects, I write detailed commit messages. I also
+GPG-sign my commits and tags.
 
-I've also worked with Subversion, Team Foundation Server, and Visual SourceSafe,
-but I don't like using them.
+As an administrator of Gerrit Code Review, I led Git training sessions. This
+demanded a thorough understanding of Git’s internal object/reference database.
+I’ve assisted with Git migrations and the management of multi-remote
+configurations.
+
+I'm familiar with Subversion, Team Foundation Server, and Visual SourceSafe. I
+don't like them.
 
 Infrastructure and Configuration as Code
 ----------------------------------------
 
-I have substantial experience writing code for/using the tools enumerated below.
-Most of this experience targed an OpenStack-based cloud environment, but some
-has targeted VMWare and bare metal, on both Linux and Mac OS systems.
+Both at work and home, I authored and contributed to various
+infrastructure-as-code projects. At work, we targeted an OpenStack VPC, but some
+work targeted VMWare and bare metal, on both Linux and Mac OS systems. These are
+the tools I have used for those projects.
 
 Configuration Management/Automation:
 * Ansible
