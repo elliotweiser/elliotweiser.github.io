@@ -106,11 +106,12 @@ of collaborative relationships that transcends typical team boundaries.
 We migrated our services out of legacy VMWare datacenters into an OpenStack VPC.
 To this end, I collaborated with my team to design and deploy immutable
 architecture. We used tools like Ansible, Packer, Cloud-Init, and Terraform to
-provision infrastructure. We leveraged Testinfra and Goss to verify desire
-machine state. We registered our services with externally-managed Consul and
-Influx DB clusters. Telegraf would send metrics to InfluxDB, which we visualized
-in Grafana dashboards. We used Consul for service discovery and application
-health-checking. This undertaking was laborious, but it was also rewarding.
+provision infrastructure. We leveraged Testinfra and Goss to verify machine
+state. We registered our services with externally-managed Consul and InfluxDB
+clusters. Telegraf would send metrics to InfluxDB, which we visualized
+in Grafana dashboards. We used Consul for service discovery, health-checks, and
+runtime configuration management. This undertaking was laborious, but it was
+rewarding.
 
 Skills
 ======
