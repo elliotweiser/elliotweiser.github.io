@@ -3,7 +3,7 @@ Elliot Weiser
 
 Email | GitHub | LinkedIn
 ----- | ------ | --------
-[elliot.weiser@gmail.com](mailto:elliot.weiser@gmail.com) | [https://github.com/elliotweiser](https://github.com/elliotweiser) | [https://www.linkedin.com/in/elliotweiser/](https://www.linkedin.com/in/elliotweiser/)
+[elliot.weiser@gmail.com][e-mail] | [https://github.com/elliotweiser][github] | [https://www.linkedin.com/in/elliotweiser/][linkedin]
 
 Education
 ---------
@@ -15,24 +15,32 @@ Education
 Open Source Work (on GitHub)
 ----------------------------
 
-Authored:
-* [elliotweiser/ansible-osx-command-line-tools](https://github.com/elliotweiser/ansible-osx-command-line-tools)
-* [Comcast/ansible-sdkman](https://github.com/Comcast/ansible-sdkman)
+#### Author
 
-Contributed:
-* [geerlingguy/ansible-role-homebrew](https://github.com/geerlingguy/ansible-role-homebrew)
-* [metacloud/molecule](https://github.com/metacloud/molecule)
-* [aelsabbahy/goss](https://github.com/aelsabbahy/goss)
+* [elliotweiser/ansible-osx-command-line-tools][elliotweiser/ansible-osx-command-line-tools]
+* [Comcast/ansible-sdkman][Comcast/ansible-sdkman]
+
+#### Contributor
+
+* [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
+* [metacloud/molecule][metacloud/molecule]
+* [aelsabbahy/goss][aelsabbahy/goss]
+
+#### Collaborator/Co-Maintainer
+
+* [geerlingguy/mac-dev-playbook][geerlingguy/mac-dev-playbook]
+* [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
+* [geerlingguy/ansible-role-mas][geerlingguy/ansible-role-mas]
 
 Public Talks
 ------------
 
-* [Ansible for MacOS @ MacAdmins Jan 2017](https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/)
-* [Automating MacOS VM Creation @ MacAdmins Feb 2017](https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/)
+* [Ansible for MacOS @ MacAdmins Jan 2017][macadmins-2017-01]
+* [Automating MacOS VM Creation @ MacAdmins Feb 2017][macadmins-2017-02]
 
 Certifications
 --------------
-* [Jenkins Engineer](https://certificates.cloudbees.com/10297911)
+* [Jenkins Engineer][CBCJE]
 
 Work Experience
 ===============
@@ -242,3 +250,17 @@ Useless Trivia
 
 * I rescued, nursed, and adopted an abandoned, newborn kitten. He's now my programming buddy.
 * I enjoy talking astrophysics, internet memes, and describing algorithms with Big-O notation.
+
+[aelsabbahy/goss]: https://github.com/aelsabbahy/goss
+[CBCJE]: https://certificates.cloudbees.com/10297911
+[Comcast/ansible-sdkman]: https://github.com/Comcast/ansible-sdkman
+[e-mail]: mailto:elliot.weiser@gmail.com
+[elliotweiser/ansible-osx-command-line-tools]: https://github.com/elliotweiser/ansible-osx-command-line-tools
+[geerlingguy/ansible-role-homebrew]: https://github.com/geerlingguy/ansible-role-homebrew
+[geerlingguy/ansible-role-mas]: https://github.com/geerlingguy/ansible-role-mas
+[geerlingguy/mac-dev-playbook]: https://github.com/geerlingguy/mac-dev-playbook
+[github]: https://github.com/elliotweiser
+[linkedin]: https://www.linkedin.com/in/elliotweiser/
+[macadmins-2017-01]: https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/
+[macadmins-2017-02]: https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/
+[metacloud/molecule]: https://github.com/metacloud/molecule
