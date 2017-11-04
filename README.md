@@ -17,20 +17,21 @@ Open Source Work (on GitHub)
 
 #### Author
 
-* [elliotweiser/ansible-osx-command-line-tools][elliotweiser/ansible-osx-command-line-tools]
 * [Comcast/ansible-sdkman][Comcast/ansible-sdkman]
+* [elliotweiser/ansible-osx-command-line-tools][elliotweiser/ansible-osx-command-line-tools]
 
 #### Contributor
 
+* [aelsabbahy/goss][aelsabbahy/goss]
 * [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
 * [metacloud/molecule][metacloud/molecule]
-* [aelsabbahy/goss][aelsabbahy/goss]
+* [philpep/testinfra][philpep/testinfra]
 
 #### Collaborator/Co-Maintainer
 
-* [geerlingguy/mac-dev-playbook][geerlingguy/mac-dev-playbook]
 * [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
 * [geerlingguy/ansible-role-mas][geerlingguy/ansible-role-mas]
+* [geerlingguy/mac-dev-playbook][geerlingguy/mac-dev-playbook]
 
 Public Talks
 ------------
@@ -264,3 +265,4 @@ Useless Trivia
 [macadmins-2017-01]: https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/
 [macadmins-2017-02]: https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/
 [metacloud/molecule]: https://github.com/metacloud/molecule
+[philpep/testinfra]: https://github.com/philpep/testinfra
