@@ -8,7 +8,7 @@ Email | GitHub | LinkedIn
 
 ### Summary
 
-Experienced engineering leader with a strong track record of delivering high-impact internal tools, cultivating expert-level team practices, and driving developer experience transformation at scale. Passionate about lean agile principles, trunk-based development, test-driven development and evolutionary design, and building high-performing, collaborative engineering teams. Proven ability to lead architecture, improve developer efficiency, and scale team capabilities with 100% voluntary retention.
+Engineering leader with nearly a decade of experience delivering high-impact internal tools, cultivating expert-level team practices, and driving developer experience transformation at scale. Passionate about lean agile principles, trunk-based development, test-driven development and evolutionary design, and building high-performing, collaborative engineering teams. Proven ability to lead architecture, improve developer efficiency, and scale team capabilities with 100% voluntary retention.
 
 ---
 
