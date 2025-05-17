@@ -87,7 +87,7 @@ Roles ranging from intern to full-time software engineer. Notable for early expe
 ### Public Speaking
 
 * **STAY TUNED**
-* **SauceCon 2022** – Co-presented on team-wide BDD enablement and tooling
+* [**SauceCon 2022** – Co-presented on team-wide BDD enablement and tooling](https://www.youtube.com/watch?v=_xcwo5NxSgY&list=PL67l1VPxOnT5GdrfsmqetzEmXvy5SbXAL&index=26)
 * [Ansible for MacOS @ MacAdmins Jan 2017](https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/)
 * [Automating MacOS VM Creation @ MacAdmins Feb 2017](https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/)
 
