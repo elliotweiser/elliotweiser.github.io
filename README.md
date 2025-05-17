@@ -1,268 +1,107 @@
-Elliot Weiser
-=============
+# Elliot Weiser
 
 Email | GitHub | LinkedIn
 ----- | ------ | --------
-[elliot.weiser@gmail.com][e-mail] | [https://github.com/elliotweiser][github] | [https://www.linkedin.com/in/elliotweiser/][linkedin]
+[GitHub](https://github.com/elliotweiser) | [elliot.weiser@gmail.com](mailto:elliot.weiser@gmail.com) | [linkedin](https://www.linkedin.com/in/elliotweiser/)
 
-Education
----------
+---
 
-* Bachelor of Arts from Swarthmore College '14
-  * Major: Computer Science
-  * Minor: Mathematics
+### Summary
 
-Open Source Work (on GitHub)
-----------------------------
+Experienced engineering leader with a strong track record of delivering high-impact internal tools, cultivating expert-level team practices, and driving developer experience transformation at scale. Passionate about lean agile principles, trunk-based development, test-driven development and evolutionary design, and building high-performing, collaborative engineering teams. Proven ability to lead architecture, improve developer efficiency, and scale team capabilities with 100% voluntary retention.
 
-#### Author
+---
 
-* [Comcast/ansible-sdkman][Comcast/ansible-sdkman]
-* [elliotweiser/ansible-osx-command-line-tools][elliotweiser/ansible-osx-command-line-tools]
+### Technical Expertise
 
-#### Contributor
+* **Languages:** Python, Node.js, Java, Groovy, Ruby, Go, Bash
+* **Infrastructure & Tools:** AWS CDK, Terraform, Docker, Nomad, Ansible
+* **Practices:** Test-Driven Development, Behavior-Driven Development, CI/CD, Trunk-Based Development, Mob Programming, Story Mapping, Lean Agile Coaching, Clean Code
+* **Frameworks & Patterns:** Hexagonal Architecture, Domain Driven Design, "Gang of Four" Design Patterns
+* **Platforms:** GitHub Enterprise (Server & Cloud), AWS, Backstage, Mkdocs, Sourcegraph, SonarQube, Jenkins
 
-* [aelsabbahy/goss][aelsabbahy/goss]
-* [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
-* [metacloud/molecule][metacloud/molecule]
-* [philpep/testinfra][philpep/testinfra]
+---
 
-#### Collaborator/Co-Maintainer
+### Experience
 
-* [geerlingguy/ansible-role-homebrew][geerlingguy/ansible-role-homebrew]
-* [geerlingguy/ansible-role-mas][geerlingguy/ansible-role-mas]
-* [geerlingguy/mac-dev-playbook][geerlingguy/mac-dev-playbook]
+**SiriusXM (formerly Pandora)**
+* *Senior Software Engineering Manager* — Feb 2023–Present
+* *Staff Software Engineer* — Promoted Aug 2022
+* *Senior Software Engineer (L4)* — Promoted Feb 2019
+* *Software Engineer (L3)* — Joined in Feb 2018
 
-Public Talks
-------------
+#### Team Leadership & Culture
 
-* [Ansible for MacOS @ MacAdmins Jan 2017][macadmins-2017-01]
-* [Automating MacOS VM Creation @ MacAdmins Feb 2017][macadmins-2017-02]
+Built a high-performing DevEx team practicing ensemble programming, test-driven development (TDD), behavior-driven development (BDD), story mapping, value stream mapping, customer-in-the-room development, and data-driven decision making.
 
-Certifications
---------------
-* [Jenkins Engineer][CBCJE]
+#### Flagship Products
 
-Work Experience
-===============
+*Luna CLI:* Streamlines deployments to LocalStack and AWS to improve developer cycle time and reload time. Fully instrumented with analytics via Databricks & PlatformX. Event pipeline consists of AWS API Gateway, S3, and Lambda for shipping, storing, and transforming event payloads.
 
-Software Engineer, Comcast NBC Universal (June 2014 - Present Day)
-------------------------------------------------------------------
+*Platform Portal:* Backstage-powered service catalog and technical documentation hub (adoption and new feature development currently in progress). Catalog ingestion pipeline
+leveraged Sourcegraph, AWS Lambda, and S3 to fully automate component discovery with capability to fully recover in the event of data loss. 
 
-I joined Comcast as a junior engineer after graduating from Swarthmore College.
-Administration of various legacy services was my first responsibility.  Those
-systems included Anthill Pro, Gerrit Code Review, and Sonatype Nexus. Each
-member of the team led training sessions and contributed to best-practices
-documentation.
+#### Additional Achievements
 
-This was not a glamorous phase of my position, but it presented an opportunity
-for growth. A "DevOps" culture arose as my team applied development
-methodologies to our work. After some much needed maturation, my team
-established its charter. Empower engineers to go fast!
+* **Developer Tooling:**
+  * *SDE CLI:* AWS workload-opinionated CLI that simplifies login across multiple AWS accounts and environments. Designed and implemented plugin architecture to enable collaboration with autonomous partner teams.
+  * *Toil-Reducing Automations:* Developed Lambda-based tooling (Python/TypeScript) to sync users across Opsgenie, Slack, and GitHub organizations.
+* **Documentation Experience:**
+  * *Cloud Platform Docs:* Git-backed MKdocs site to improved engineering documentation experience (replaced Confluence). Empowered contributions from non-technical stakeholders with robust processes and defect detection.
+* **Infrastructure & Operations:**
+  * Created internal Docker base images, tested with GOSS, secured with regular scans.
+  * Currently leading cloud development environment strategy using Coder and Devcontainers.
+  * GitHub Enterprise (Server and Cloud), Sourcegraph, and SonarQube. Maintains onboarding and baseline configuration.
+  * Designed and implemented initial Artifactory repository creation, token management, and retention policies and automation still used today.
+* **Open Source Leadership:**
+  * Active member of SiriusXM's FOSS committee, shaping policy on open-source software usage and contribution.
+  * Led alignment on artifact management topology for supply chain resiliency and compliance.
+* **Impact Measurement:**
+  * Drove a 21-point improvement in the DX aggregate metric for Developer Experience Index (DXI) over 2 years (2023-2024).
+  * Improved documentation CSAT by 22 points in 2024.
+* **Vendor & Partner Management:** Maintained direct relationships with key vendors including GitHub, SonarSource, Sourcegraph, Postman, JFrog, and Datadog. Negotiated contracts, oversaw renewals, and ensured alignment between tooling capabilities and internal platform goals.
 
-I'm currently a Software Engineer II.  I help motivate my team to do the best
-work they can do, while encouraging a fun, collaborative atmosphere. We observe
-strict code review guidelines, automate any repeatable task, and test
-EVERYTHING. We encourage each other to write high-quality code, commit messages,
-and documentation. Our team practices AGILE to help manage our workload. Each
-member of the team "manages up" by leading scrums and contributing to our
-road-map. Furthermore, we've established healthy, collaborative relationships
-with other engineering teams.  These teams help assist with beta testing,
-providing feedback, and informing our backlog.
+#### Prior Notable Projects
 
-Below I describe some of the projects I’ve worked on while at Comcast.
+* **BDD Adoption & Tooling:** Led BDD practices across client engineering using Gherkin, Cucumber, and code generation tools. Co-presented at SauceCon 2022.
+* **Web CDN:** Designed high-performance, multi-region, on-premises Web CDN with Ceph, Nginx, Anycast, and multi-tier caching & compression. Serves daily peaks of 2K RPS in actual usage with p99 < 1ms and p999 < 10ms. Saved estimated $1M+ in vendor costs.
+* **Critical Path Artifact Management Revamp:** Replaced Nexus with Ceph for _large_ artifact delivery consumed by internal, propietary tooling: Dora and Pandora VMs. Used expand-contract and branch-by-abstraction techniques to accomplish gradual and seamless migration. Stabilized CI, deployments, and general Nexus availability for day-to-day use by engineering teams.
 
-#### Project Mortar
+---
 
-Our mission was to develop the ideal CD-as-a-service platform to replace Anthill
-Pro. Together, we designed and implemented a secure, easy-to-use CD solution
-based on Jenkins.  Inspired by Travis CI, it utilizes a declarative YAML syntax
-to describe the CD pipelines. This was the primary manifestation of our team’s
-charter to empower engineers. Project Mortar continues to provide CI/CD to
-hundreds of projects and users across Comcast. Below are some of the relevant
-components and features to which I contributed:
+### Additional Experience (Condensed)
 
-* Groovy scripts for configuring the Jenkins master
-* Curating mkdocs-style user onboarding documentation
-* Asymmetric encryption of repository secrets, exposed as Jenkins Masked Passwords
-* Development of a Job-DSL seed job for generating other Jenkins jobs
-* Optimized agent scheduling and build-time caching with Docker and Jenkins Swarm
-* Waffle (declarative pipeline YAML; see below)
+#### Comcast
 
-#### Waffle
+Spent 4 years as a software engineer, beginning as a build and release engineer focused on developing reusable pipeline libraries. Later transitioned into broader software engineering roles, including systems administration for Jenkins, SonarQube, Gerrit, and GitHub. Led and contributed to internal projects such as API-driven traffic shaping for blue-green deployments. Actively contributed to open source projects, including Ansible roles, testinfra, goss, and molecule (now adopted by the Ansible community). Built a strong foundation in infrastructure, monitoring, automation, and platform reliability.
+Roles ranging from intern to full-time software engineer. Notable for early experience with systems programming, mentoring, and open source contributions. Supported internal and external platforms with a strong emphasis on problem solving, documentation, and developer support.
 
-I authored a Groovy library that translates YAML into Jenkins Scripted Pipeline
-DSL. This implemented a declarative, simplified, and opinionated interface to
-Jenkins. Furthermore, it prevents users from injecting arbitrary Groovy code
-into the Jenkins runtime. In response to similar projects, Jenkins finally
-released "Declarative Pipeline" the following year. Unfortunately, Waffle has
-not been open-sourced (yet). It remains a key component of Project Mortar.
+---
 
-#### CAP Current-Next
+### Books That Shaped My Practice
 
-This was my first project at Comcast. I wrote a client library and CLI that
-orchestrated blue-green (or current-next) deployment. This tool would
-communicate with HighWire, a RESTful interface to Brocade load balancers. The
-goal? Reduce the minutes-to-hours long deployment window of some of our
-state-less applications. For the projects that opted to onboard, we managed to
-shrink this to approximately 10 seconds! With the emergence of tooling like
-Consul and Docker, we decided to put development on hold. I wasn't discouraged
-though-- I gained a love for writing Ruby code. Furthermore, I learned the value
-of collaborative relationships that transcends typical team boundaries.
+*The Pragmatic Programmer* • *Clean Code* • *Refactoring* • *BDD in Action* • *Software Telemetry* • *Domain-Driven Design* • *Software Teaming: A Mob Programming, Whole-Team Approach* • *Lean Software Development* • *Extreme Programming Explained* • *Test Driven Development* • *Hexagonal Architecture Explained*
 
-#### Migrate to the Cloud
+---
 
-We migrated our services out of legacy VMWare datacenters into an OpenStack VPC.
-To this end, I collaborated with my team to design and deploy immutable
-architecture. We used tools like Ansible, Packer, Cloud-Init, and Terraform to
-provision infrastructure. We leveraged Testinfra and Goss to verify machine
-state. We registered our services with externally-managed Consul and InfluxDB
-clusters. Telegraf would send metrics to InfluxDB, which we visualized
-in Grafana dashboards. We used Consul for service discovery, health-checks, and
-runtime configuration management. This undertaking was laborious, but it was
-rewarding.
+### Public Speaking
 
-Software Engineer Intern @ Comcast NBC Universal (Summer, 2013)
----------------------------------------------------------------
+* **STAY TUNED**
+* **SauceCon 2022** – Co-presented on team-wide BDD enablement and tooling
+* [Ansible for MacOS @ MacAdmins Jan 2017](https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/)
+* [Automating MacOS VM Creation @ MacAdmins Feb 2017](https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/)
 
-My experience at Sylint (see below) steered my internship at Comcast, where
-I worked on a Windows Phone application. Once again, I found myself using the
-Visual Studio IDE to develop C# code. It was the first time I found myself
-using Git for version control in a professional setting (I had used it a bit in
-college). I created an app that helps users search for films by title.
-For each title, the app showed:
+---
 
-* A movie poster
-* Synopsis and description
-* Cast information
-* Scores from Rotten Tomatoes and Flixster
+### Open Source Contributions
 
-Software Engineer Intern @ The Sylint Group (Summer, 2012)
-----------------------------------------------------------
+* [goss-org/goss](https://github.com/goss-org/goss)
+* [ansible/molecule](https://github.com/ansible/molecule)
+* [pytest-dev/pytest-testinfra](https://github.com/pytest-dev/pytest-testinfra)
 
-In the Summer of 2012, I interned at a cyber security firm. I learned some
-of the core web development languages, including HTML5, CSS, and Javascript.
-I created a couple of web apps using the .NET framework, the Visual Studio IDE,
-Team Foundation Server for version control. For my final project, I created
-a web app that allows gun range attendees to post and share photos with their
-shooting instructors. The most enjoyable part of this for me was playing with
-HTML canvas to render linear transformations (scaling, rotation, translation)
-because I'm a math nerd that way.
+---
 
-Skills
-======
+### Education
 
-Source Control
---------------
-
-Git is my go-to. I’ve made extensive use of both GitHub (Enterprise) and Gerrit
-Code Review. I’m proficient in both the fork/PR workflow and the Gerrit
-cherry-picking workflow. I'm also familiar with other merging/rebasing
-workflows. On collaborative projects, I write detailed commit messages. I also
-GPG-sign my commits and tags.
-
-As an administrator of Gerrit Code Review, I led Git training sessions. This
-demanded a thorough understanding of Git’s internal object/reference database.
-I’ve assisted with Git migrations and the management of multi-remote
-configurations.
-
-I'm familiar with Subversion, Team Foundation Server, and Visual SourceSafe. I
-don't like them.
-
-Infrastructure and Configuration as Code
-----------------------------------------
-
-Both at work and home, I authored and contributed to various
-infrastructure-as-code projects. At work, we targeted an OpenStack VPC, but some
-work targeted VMWare and bare metal, on both Linux and Mac OS systems. These are
-the tools I have used for those projects.
-
-Configuration Management/Automation:
-* Ansible
-* Cloud-init
-
-Virtual/Container Image Building:
-* Packer
-* Docker
-
-Infastructure Life-Cycle Management
-* Terraform
-
-Infrastructure testing:
-* Testinfra
-* Goss
-
-Metrics Gathering, Dashboards, and Alerting:
-* Telegraf
-* InfluxDB (as a client user)
-* Grafana
-
-Service Discovery and Monitoring
-* Consul (as a client user)
-* Consul Template
-
-Programming Languages
----------------------
-
-Below are the programming languages with which I have extensive experience:
-
-Ruby:
-* Writing specification-based unit tests w/ RSpec
-* Mutation-based test coverage checking (ask me about it!)
-* Static analysis w/ the MetricFu toolbox
-* Scripting for System Administration
-
-Groovy:
-* Specification-based testing w/ Spock
-* Code coverage w/ Cobertura and Jacoco
-* GMetrics for analyzing cyclomatic/ABC complexity
-* Scripting against the Jenkins Script Console for configuration and maintenance
-* Jenkins Scripted Pipeline DSL (ask me about it!)
-* Jenkins Job DSL (ask me about it!)
-
-Python:
-* I've used py.test and nosetests for writing unit tests
-* I've used coverage.py for code coverage checking
-* Scripting for System Administration
-
-Bash:
-* Scripting for System Administration on UNIX-based systems
-
-I've also contributed small code changes to Java, Golang, and NodeJS projects.
-My go-to language in college was C++, but it's been a while.
-
-System Administration
----------------------
-
-The systems I administered were a combination of Linux (CentOS 6/7) and Mac OS.
-Sometimes I needed to configure services, manage user accounts, or troubleshoot
-network connectivity. I wrote various Bash, Python, and Ruby scripts to assist
-with these efforts. I'm sure there's something I forgetting here, so I'll come
-back to it when I remember.
-
-Things I'm excited to learn more about
---------------------------------------
-
-* Programming in Golang and NodeJS
-* Container orchestration w/ Kubernetes, OpenShift, DC OS, Mesosphere, etc.
-
-Useless Trivia
---------------
-
-* I rescued, nursed, and adopted an abandoned, newborn kitten. He's now my programming buddy.
-* I enjoy talking astrophysics, internet memes, and describing algorithms with Big-O notation.
-
-[aelsabbahy/goss]: https://github.com/aelsabbahy/goss
-[CBCJE]: https://certificates.cloudbees.com/10297911
-[Comcast/ansible-sdkman]: https://github.com/Comcast/ansible-sdkman
-[e-mail]: mailto:elliot.weiser@gmail.com
-[elliotweiser/ansible-osx-command-line-tools]: https://github.com/elliotweiser/ansible-osx-command-line-tools
-[geerlingguy/ansible-role-homebrew]: https://github.com/geerlingguy/ansible-role-homebrew
-[geerlingguy/ansible-role-mas]: https://github.com/geerlingguy/ansible-role-mas
-[geerlingguy/mac-dev-playbook]: https://github.com/geerlingguy/mac-dev-playbook
-[github]: https://github.com/elliotweiser
-[linkedin]: https://www.linkedin.com/in/elliotweiser/
-[macadmins-2017-01]: https://apple.lib.utah.edu/jan-2017-mac-managers-meeting/
-[macadmins-2017-02]: https://apple.lib.utah.edu/feb-2017-mac-managers-meeting/
-[metacloud/molecule]: https://github.com/metacloud/molecule
-[philpep/testinfra]: https://github.com/philpep/testinfra
+* **Swarthmore College** — B.A. with a major in Computer Science, Minor in Mathematics (Class of 2014)
+* **Drexel University** — Supplemental coursework in Computer Science
