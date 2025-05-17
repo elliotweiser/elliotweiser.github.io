@@ -64,7 +64,7 @@ leveraged Sourcegraph, AWS Lambda, and S3 to fully automate component discovery 
 #### Prior Notable Projects
 
 * **BDD Adoption & Tooling:** Led BDD practices across client engineering using Gherkin, Cucumber, and code generation tools. Co-presented at SauceCon 2022.
-* **Web CDN:** Designed high-performance, multi-region, on-premises Web CDN with Ceph, Nginx, Anycast, and multi-tier caching & compression. Serves daily peaks of 2K RPS in actual usage with p99 < 1ms and p999 < 10ms. Saved estimated $1M+ in vendor costs.
+* **Web CDN:** Designed high-performance, multi-region, on-premises Web CDN with Ceph, Nginx, Anycast, and multi-tier caching & compression. Serves daily peaks of 2K RPS in actual usage with p99 < 1ms and p999 < 10ms. Saved estimated $1M+ in vendor costs and reduced average worst-case time to music (TTM) metric for 2/3 of our users to 2.5 seconds.
 * **Critical Path Artifact Management Revamp:** Replaced Nexus with Ceph for _large_ artifact delivery consumed by internal, propietary tooling: Dora and Pandora VMs. Used expand-contract and branch-by-abstraction techniques to accomplish gradual and seamless migration. Stabilized CI, deployments, and general Nexus availability for day-to-day use by engineering teams.
 
 ---
